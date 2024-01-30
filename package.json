@@ -1,0 +1,32 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "-----------------------\r # README\r -----------------------\r Browny is a one page bootstrap 3 based resume/portfolio template.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon backend/dist/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abuomerSD/my-portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/abuomerSD/my-portfolio/issues"
+  },
+  "homepage": "https://github.com/abuomerSD/my-portfolio#readme",
+  "dependencies": {
+    "dotenv": "^16.4.1",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "nodemon": "^3.0.3"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.11.10",
+    "typescript": "^5.3.3"
+  }
+}
