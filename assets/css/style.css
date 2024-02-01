@@ -612,6 +612,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     overflow:hidden;
     margin-bottom: 30px;
 }
+
 /*.item img*/
 .isotope .item img{
     width:100%;
@@ -622,13 +623,28 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     -o-transition: .5s;
     transition: .5s;
 }
+
+/* .isotope #item-small img{
+    margin: 20px;
+    width:35%;
+    height:50%;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s;
+} */
+
 .isotope .item:hover  img{
     -webkit-transform:scale(1.5);
     -moz-transform:scale(1.5);
     -ms-transform:scale(1.5);
     -o-transform:scale(1.5);
     transform:scale(1.5);
-}/*.item img*/
+}
+
+
+/*.item img*/
 
 /*.isotope-overlay*/
 .isotope-overlay{
