@@ -15,6 +15,10 @@ app.use(express.static('assets'));
 
 app.get('/', (req: Request, res: Response)=> {
     res.render('index');
+});
+
+app.use((req: Request, res:Response)=> {
+    res.render('404');
 })
 
 app.listen(port, ()=> {

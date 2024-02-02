@@ -15,6 +15,9 @@ app.use(express_1.default.static('assets'));
 app.get('/', (req, res) => {
     res.render('index');
 });
+app.use((req, res) => {
+    res.render('404');
+});
 app.listen(port, () => {
     console.log(`server is listening to requests at port ${port}`);
 });
